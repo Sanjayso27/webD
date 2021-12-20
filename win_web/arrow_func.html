@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow functions JS</title>
+</head>
+<body>
+    <div class="container">
+        this is container
+    </div>
+    <script>
+        // let greet = ()=>{
+        //     console.log('Hello');
+        // };
+        // brackets should be there
+        // let greet = () => console.log('Hello');
+        // let sum2 = (a,b)=>{
+        //     return a+b;
+        // };
+        // avoid return in case only return statement
+        // sum2 = (a,b)=>a+b;
+
+        // if only one arg
+        // sum2 = a => a/2;
+        // greet();
+
+        // lexical this
+        // there can also be functions inside object
+        // let obj1 = {
+        //     greeting:"Hello",
+        //     names: ['a','b','c'],
+        //     say (){
+        //         // arrow function allows us to use this of the object for accessing it's members
+        //         this.names.forEach(element => {
+        //             console.log(this.greeting + ' '+ element);
+        //         });
+        //     }
+        // }
+        // obj1.say();
+
+        // math object
+        let m=Math;
+        console.log(m);
+        //m. for accessing functions and constants
+
+        //JSON
+        // JSON.stringify(obj) takes object and return string ,can use this string to do further 
+        // JSON.parse(str) takes valid json string and return object;
+    </script>
+</body>
+</html>

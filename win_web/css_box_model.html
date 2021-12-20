@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* universal selector */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #9ad3d3;
+        }
+        .container{
+            background-color: rgb(201 177 129);
+            border: 3px solid rgb(10, 20, 30);
+            /* padding: 79px; */
+            /* set margin/padding for left right up down using  padding left/right/..*/
+            /* padding: 23px 34px 56px 67px;  top right bottom left */
+            padding: 34px 19px;/* y x*/
+            margin: 34px 14px;
+            border-radius: 11px;
+            width: 533px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is box model</h3>
+        <p id="first">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil maiores iure sequi esse accusantium eum. Iusto nulla amet molestiae odit libero vero quas, optio a eos! Cumque quod praesentium laudantium.
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is box model</h3>
+        <p id="second">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil maiores iure sequi esse accusantium eum. Iusto nulla amet molestiae odit libero vero quas, optio a eos! Cumque quod praesentium laudantium.
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is box model</h3>
+        <p id="third">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil maiores iure sequi esse accusantium eum. Iusto nulla amet molestiae odit libero vero quas, optio a eos! Cumque quod praesentium laudantium.
+        </p>
+    </div>
+</body>
+</html>

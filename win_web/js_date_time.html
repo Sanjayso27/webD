@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS date and time</title>
+</head>
+<body>
+    <div class="container">
+        this is container
+    </div>
+    <script>
+        // Date() is constructor creates an object
+        let date=new Date();
+        console.log(date);
+        // reference time
+        let dt=new Date(0);
+        console.log(dt);
+        // in string yy-mm-dd
+        let dt1=new Date("2020-09-30");
+        console.log(dt1);
+        // year,month(0-indexed),date ,hour, minute,second,ms
+        let dt2=new Date(2021,9,31,10,3,3,0);
+        console.log(dt2);
+
+        let full =dt2.getFullYear();
+        dt2.setFullYear(2022);
+        console.log(dt2);
+        console.log(full);
+        // the passed value wraps around
+        // date.now gives the unique timestamp from the reference time can be used for calculating the time taken
+    </script>
+</body>
+</html>

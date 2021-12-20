@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS tut</title>
+</head>
+<body>
+    <div id="man" class="container">
+        <h1 id='main'>This is heading</h1>
+        <!-- ul>li*5 -->
+        <ul id='nav'>
+            <li>Home</li>
+            <li>About</li>
+            <li>more</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        second
+    </div>
+    <script>
+        // for logging messages
+        // console.log('Hello World');
+        // dynamic typing no need to specify type
+        // var a=78;
+        // b="harry";
+        // c=4.5
+        // console.log(a);
+        // console.log(b);
+        // console.log(c);
+
+        // var num1=56;
+        // var num2=67;
+
+        // console.log('num1+num2 is '+(num1+num2));
+        // var name="harry";
+        // var temp=`${name} is goo'd'`;
+        // name.length
+        // console.log(temp);
+        // first occur of string
+        // var pos=temp.indexOf('is');
+        // console.log(pos);
+        // pos=temp.lastIndexOf('is');
+        // var substr=temp.slice(1,7); can take -ve idices
+        // var substr=temp.substr(1,2);
+        // console.log(substr);
+        // var replace=temp.replace('is' ,'are');
+        // original string is not affected
+        // console.log(replace);
+        // console.log(temp);
+        // var t="    hi lol  ";
+        // concat inplace is false;
+        // console.log(t.concat('llooll'));
+        // console.log(t);
+        // console.log(t.trim());
+        // console.log(temp.charAt(2));
+        // console.log(temp[3]);
+        // var hu="hu";
+        // var hu="hu1";
+        // console.log(hu);
+        // var's scope is global,redeclaration is allowed
+        // let scope is block level,it more widely used,it can't redeclared in the same scope
+        // let x=1;
+        // {let x=2;}
+        // const can't be changed
+        // const a="this is";
+        // a="hia";
+        // const cups=45;
+        // switch (cups) {
+        //     case value:
+                
+        //         break;
+        
+        //     default:
+        //         break;
+        // }
+        // values in JS can be primitives or objects
+        //primitives
+        // let v1=34;
+        // let v2="string";
+        // let v3=true;
+        // let v4=null;
+        // let v5=undefined;
+
+        //objects
+        // let employee = {
+        //     name: "Sanjay",
+        //     salary: 10,
+        //     channel: "No"
+        // }
+        // console.log(employee);
+
+        // let names = [1,2,"Harr"];
+        // let names = new Array(2,1,"Harr");
+        // let names = new Array(23,45);
+        // let names = new Array(23);
+        // console.log(names.length);
+        // names.sort()
+        // names.push(undefined);
+        // console.log(names);
+
+        //functions
+        // function greet(name){
+        //     console.log(name+"is a good boy");
+        // return name;
+        // }
+        // greet("sanjay");
+        // let name1=1;
+        // greet(name1);
+
+        //alert don't return anything;
+        // alert("this is a message");
+
+        //prompt
+        // let name=prompt("what?" ,"Hi");
+        // console.log(name);
+
+        //confirm
+        // let de = confirm("really?");
+
+        //loops 
+        // iterating the array
+        // let friends=['a','b','c','d'];
+        // friends.forEach(function f(ele) {
+        //     console.log(ele);
+        // })
+        // for (element of friends){
+        //     console.log(element);
+        // }
+
+        // iterating object
+        // let employee = {
+        //     name: "Sanjay",
+        //     salary: 10,
+        //     channel: "No"
+        // }
+
+        // for(ele in employee){
+        //     console.log(`${ele}  ${employee[ele]}`);
+        // }
+
+        //
+        // let mai=document.getElementById('main');
+        // console.log(mai);
+        // console.log(mai.innerHTML);
+        // mai.innerHTML="this is not heading";
+
+        // let conts=document.getElementsByClassName('container');
+        // console.log(conts);
+        // console.log(conts[0]);
+        // console.log(conts[1]);
+
+        // let sel=document.querySelector('.container');
+        // let sel=document.querySelector('#nav>li');
+        // let sel=document.querySelectorAll('#nav>li');
+    </script>
+</body>
+</html>

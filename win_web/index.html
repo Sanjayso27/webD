@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay</title>
+    
+</head>
+
+<body>
+    <h1>Sanjay</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati explicabo repellendus animi error veritatis
+        illo porro neque nulla nemo vitae quo perferendis vero fugit aperiam sequi, maxime, quam consequuntur labore!
+    </p>
+    <strong>HI</strong>
+    <br>
+    <em>hi</em>
+    <hr>
+    <ul type="square">
+        <li>This is first</li>
+        <li>This is second</li>
+        <li>This is third</li>
+    </ul>
+    <ol type="a">
+        <li>This is first</li>
+        <li>This is second</li>
+        <li>This is third</li>
+    </ol>
+
+    <h3>HTML Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>id</th>
+                <th>role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sanjay</td>
+                <td>1</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>Sourav</td>
+                <td>2</td>
+                <td>b</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Forms</h2>
+    <form action="backend.php">
+        <label for="name">Name: </label>
+        <div>
+            <!-- id same as for value in label -->
+            <input type="text" name="myName" id=name>
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            <!-- name is used by backend for identiyfing this tag -->
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date : <input type="date" name="Date">
+        </div>
+        <br>
+        <!-- only numbers and e -->
+        <div>
+            Bonus : <input type="number" name="myBonus">
+        </div>
+        <br>        
+        <div>
+            About u.. <br> <textarea name="mytext" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Are you ok? <input type="checkbox" name="mycheck" checked>
+        </div>
+        <!-- only one circle can be chosen in radio -->
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Others <input
+                type="radio" name="Gender">
+        </div>
+
+        <br>
+        <label for="car">Car:</label>
+        <select name="myCar" id="car">
+            <option value="indica">I</option>
+            <option value="swf">s</option>
+        </select>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+
+    </form>
+
+
+    <br>
+    <a href="https://google.com" target="_blank">google</a><br>
+    <a href="https://twitter.com" target="_blank">twitter</a><br>
+    <a href="https://facebook.com" target="_blank">facebook</a><br>
+    <a href="/html_files/index.html" target="_blank">html file</a>
+
+    <h2>Inline and Block</h2>
+    <p style="border: 2px solid red">this is para</p>
+    <div style="border: 2px solid red">this is div</div>
+    <span style="border: 2px solid red">this is span</span>
+    <strong style="border: 2px solid red"> this is strong</strong>
+    <a style="border: 2px solid red"> this is anchor</a>
+    <br>
+    <!-- id is unique and only one element can have that id,whereas mulitple elements can share the class -->
+    <div id="me" class="Us">
+        this is Us
+    </div>
+    <!-- emmet "element.class name" div by default or #id -->
+    <div class="Us"></div>
+    <div id="me"></div>
+    <!-- span.myclass.myclass1.myclass2.myclass3 + tab -->
+    <!-- span.myclass.myclass1.myclass2.myclass3*4 -->
+
+    <h2>Html Entities</h2>
+    <div>
+        Hi,How are u ? &nbsp; Fine
+        &lt;p&gt;
+        &pound;
+        &copy;
+        empty character: &#8203;
+    </div>
+
+    <h2>Semantic Tags</h2>
+    <details>
+        <summary>message</summary>
+        Hi all
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum dicta facere sapiente nobis suscipit qui obcaecati necessitatibus esse, voluptate dolor quod est provident vel minima enim atque commodi quam.
+    </details>
+</body>
+
+</html>

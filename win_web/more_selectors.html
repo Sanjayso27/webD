@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* p elements inside li elements inside div elements */
+        /* div li p{
+            background-color: red;
+        } */
+
+        /* p elements direct child of div */
+        /* div > p{
+            background-color: green;
+        } */
+
+        /* p elements whose immediate before siblings are div */
+        div + p{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h3>More on selectors</h3>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is para inside li ul</p></li>
+                <li>this will not get affected</li>
+                <p> This is para inside ul</p>
+            </ul>
+            <p>This is para inside row</p>
+        </div>
+        <p>this is direct child</p>
+    </div>
+    <p> this is outside all</p>
+    <p> this is outside all</p>
+    <div>HI</div>
+</body>
+</html>

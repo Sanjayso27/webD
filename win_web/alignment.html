@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 5px;
+            padding: 12px 5px;
+            background-color: rgb(219, 197, 197);
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;/*y x*/
+            background-color: rgb(241, 213, 188);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #comp {
+            float: right;
+            width: 48%;
+        }
+
+        #stat {
+            /* float: left; */
+            clear:both;
+            width: 50%;
+        }
+        p,h3{
+            text-align: left;
+            text-align: justify;
+        }
+        h1{
+            /* you have to give width along with margin to keep it at center */
+            width: 440px;
+            margin: 34px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi quasi maiores,
+                dolorem ad veniam excepturi mollitia. Delectus ad qui magni mollitia! Veniam porro quia non itaque,
+                molestiae reprehenderit magni quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deleniti nihil dolorum ratione voluptates facilis laudantium repellat delectus, similique debitis, corrupti voluptate consequuntur facere culpa maiores pariatur! Dolorum, aliquid cum.</p>
+        </div>
+        <div id="comp" class="item">
+            <h3>comp</h3>
+            <p id="comppara" class="para"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis laboriosam
+                ullam
+                hic nihil modi, ad veniam. Ipsa est aperiam accusantium eaque nulla explicabo, sapiente porro, natus
+                expedita inventore esse. Dolor. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati quas consequatur magni rerum porro maxime repellendus explicabo ducimus tempore temporibus at non mollitia labore necessitatibus praesentium eius, aliquid laudantium aspernatur? Perferendis, eligendi quisquam. </p>
+        </div>
+        <div id="stat" class="item">
+            <h3>stat</h3>
+            <p id="statpara" class="para"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis laboriosam
+                ullam
+                hic nihil modi, ad veniam. Ipsa est aperiam accusantium eaque nulla explicabo, sapiente porro, natus
+                expedita inventore esse. Dolor. </p>
+        </div>
+        <div id="glass" class="item">
+            <h3>glass</h3>
+            <p id="glasspara" class="para"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis laboriosam
+                ullam
+                hic nihil modi, ad veniam. Ipsa est aperiam accusantium eaque nulla explicabo, sapiente porro, natus
+                expedita inventore esse. Dolor. </p>
+        </div>
+    </div>
+</body>
+
+</html>

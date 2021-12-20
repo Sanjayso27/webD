@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        /* margin auto +width to center */
+        /* display inline only take that much space that it require */
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            margin: auto;
+            border: 2px solid red;
+            width: 1200px;
+        }
+        img{
+            width: 34px;
+            display: block;
+            margin:auto
+        }
+        h3{
+            text-align: center;
+            font-family: cursive;
+            margin: 0px;
+        }
+        .box{
+            border: 4px solid black;
+            background-color: honeydew;
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            box-sizing: border-box;
+            width: 33%;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://www.codewithharry.com/assets/img/logo.png" >
+        <h3>Welcome to Sanjay's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aperiam consequatur cupiditate soluta hic quibusdam nulla eos alias natus, voluptatibus modi ipsam. Asperiores ratione, sint quisquam repellendus pariatur accusantium modi.</p>
+        </div>
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aperiam consequatur cupiditate soluta hic quibusdam nulla eos alias natus, voluptatibus modi ipsam. Asperiores ratione, sint quisquam repellendus pariatur accusantium modi.</p>
+        </div>
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aperiam consequatur cupiditate soluta hic quibusdam nulla eos alias natus, voluptatibus modi ipsam. Asperiores ratione, sint quisquam repellendus pariatur accusantium modi.</p>
+        </div>
+    </div>
+</body>
+</html>
