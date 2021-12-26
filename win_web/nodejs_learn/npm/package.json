@@ -1,0 +1,21 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "goog",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm.js"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Sanjay",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "~1.6.4"
+  },
+  "devDependencies": {
+    "nodemon": ">2.0.14"
+  }
+}
