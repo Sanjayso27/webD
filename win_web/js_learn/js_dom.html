@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /* border: 2px solid red; */
+            margin: 3px 0;
+            /* background: cyan; */
+            padding: 9px;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to this JavaScript Tutorial</h1>
+    <div id="firstContainer" class="container">
+        <button id="click" >Click Me</button> 
+        <p>This is a paragraph which is the best para of this universe</p>
+    </div>
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
+    <script > 
+    // document.getElementById('click').click()
+    // document.getElementById('click').style.border = '2px solid black';
+    let elem=document.getElementById('click');
+    // console.log(elem);
+
+    let elemClass = document.getElementsByClassName('container');
+    // console.log(elemClass);
+    // elemClass[0].classList.add('bg-primary');
+    // console.log(elem.innerText);
+    // console.log(elem.innerHTML);
+
+    // console.log(elemClass[0].innerText);
+    // console.log(elemClass[0].innerHTML);
+    // let tn=document.getElementsByTagName('div');
+    // console.log(tn);
+
+    // let create = document.createElement('p');
+    // create.innerText='This is a created para';
+
+    // tn[0].appendChild(create);
+
+    // let create2 = document.createElement('b');
+    // create2.innerText='This is a created bold';
+    // // (new,old)
+    // tn[0].replaceChild(create2,create);
+    // tn[0].removeChild(create2);
+
+    // selecting using query same as selecting elements in css for styling
+    // let sel = document.querySelector('.container');
+    // console.log(sel);
+    // let sel1 = document.querySelectorAll('.container');
+    // console.log(sel1);
+    </script>
+    </body>
+</html>
