@@ -1,0 +1,12 @@
+view all
+-show dbs
+
+create new database
+-use dbName
+
+current database
+-db
+
+delelting database
+-db.dropDatabase()
+
